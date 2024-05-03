@@ -47,7 +47,7 @@ pares = []
 impares = []
 
 for i in range(len(lista)):
-    if i % 2 == 0:
+    if lista[i] % 2 == 0:
         pares.append(lista[i])
     else:
         impares.append((lista[i]))
